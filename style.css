@@ -96,3 +96,36 @@ a{
     position: absolute;
     right: 0px
 }
+.intro{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    height: 920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-left{
+    width: 526px; 
+    height: 442px;
+}
+.sparkle-sm{
+    width: 128px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-right{
+    width: 746px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 96px;
+}
+.section-left p{
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+}
