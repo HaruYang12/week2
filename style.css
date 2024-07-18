@@ -96,6 +96,7 @@ a{
     position: absolute;
     right: 0px
 }
+/* intro */
 .intro{
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
     height: 920px;
@@ -126,6 +127,48 @@ a{
 }
 .section-left p{
     color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* about me */
+.about_me{
+    display: flex;
+    justify-content: space-around;
+}
+.card_list{
+    width: 636px;
+    height: 328px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card_list li{
+    width: 306px;
+    height: 148px;
+    border: 1px solid #E3E3E3;
+}
+.num{
+    font-size: 20px;
+    line-height: 30px;
+}
+.title-name{
+    font-size: 20px;
+    line-height: 30px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.aboutme_text{
+    width: 526px;
+    height: 420px;
+}
+.aboutme-title{
+    font-size: 64px;
+    line-height: 96px;
+}
+.aboutme_text p{
     font-size: 24px;
     line-height: 36px;
 }
