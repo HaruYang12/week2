@@ -51,6 +51,7 @@ table {
 }
 .wrap{
     margin: 0 auto;
+    font-family: Bruno Ace;
 }
 a{
     text-decoration: none;
@@ -60,12 +61,23 @@ a{
     background-color: #000;
     
 }
+nav{
+    height: 128px;
+    padding: 40px 100px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Bruno Ace SC;
+}
 .header ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .header a{
     color: #FFFF;
+}
+.header a:hover{
+    color: skyblue;
 }
 .homepage{ 
     height: 848px;
@@ -92,9 +104,19 @@ a{
 }
 .title .btn{
     border: none;
-    border-radius: 25px;
+    border-radius: 32px;
     position: absolute;
-    right: 0px
+    right: 0px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Bruno Ace;
+}
+.title .btn:hover{
+    background-color: skyblue;
+    cursor: pointer;
 }
 /* intro */
 .intro{
@@ -135,6 +157,9 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.info{
+    padding: 206px 0;
+}
 .card_list{
     width: 636px;
     height: 328px;
@@ -163,12 +188,105 @@ a{
 .aboutme_text{
     width: 526px;
     height: 420px;
+    padding: 160px 0;
 }
 .aboutme-title{
     font-size: 64px;
     line-height: 96px;
+    margin-bottom: 36px;
 }
 .aboutme_text p{
     font-size: 24px;
     line-height: 36px;
+}
+/* conatct */
+.contact{
+    background-color: #050014;
+    height: 354px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.contact-title{
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 526px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon img:hover{ 
+    filter: drop-shadow(0px 4px 4px #9094FFE5);
+}
+/* project */
+.project-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+.project-title{
+    font-size: 64px;
+    line-height: 96px;
+    color: #000;
+    padding-left: 650px;
+}
+.right-content p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.left-content{
+    width: 416px;
+    height: 530px;
+}
+.top{
+    width: 856px;
+    height: 196px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.top_right{
+    width: 636px;
+    height: 196px;
+}
+.btn2{
+    border: none;
+    border-radius: 32px;
+    position: relative;
+    bottom: -80px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    font-family: Bruno Ace;
+}
+.btn2:hover:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.bottom{
+    width: 856px;
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+}
+/* footer */
+.footer{
+    height: 104px;
+    background-color: #000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 24px;
 }
